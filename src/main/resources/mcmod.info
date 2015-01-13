@@ -1,0 +1,16 @@
+[
+{
+  "modid": "swordz",
+  "name": "Swordz",
+  "description": "More swords",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["x1a0"],
+  "credits": "The Forge and FML guys, for making awesome project",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
