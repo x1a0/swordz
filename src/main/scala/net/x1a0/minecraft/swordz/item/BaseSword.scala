@@ -7,7 +7,9 @@ import net.x1a0.minecraft.swordz.CreativeTab
 /** @author x1a0 */
 
 
-class BaseSword(name: String) extends ItemSword(Item.ToolMaterial.WOOD) {
+class BaseSword(val id: Int) extends ItemSword(Item.ToolMaterial.IRON) {
+  val name = s"swordz_${id.toString}"
+
   setUnlocalizedName(name)
   setCreativeTab(CreativeTab)
 

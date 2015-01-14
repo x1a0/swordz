@@ -9,5 +9,5 @@ import net.minecraftforge.fml.relauncher.{Side, SideOnly}
 
 object CreativeTab extends CreativeTabs(CreativeTabs.getNextID, "swordz") {
   @SideOnly(Side.CLIENT)
-  override def getTabIconItem: Item = item.Aether
+  override def getTabIconItem: Item = Mod.swords(0)
 }
